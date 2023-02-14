@@ -17,7 +17,7 @@ app.get("/min", async (req, res) => {
     //反轉日期
     list.reverse()
     res.send(list);
-    var createdAt = new Date(reportDate._seconds * 1000);
+    // var createdAt = new Date(reportDate._seconds * 1000);
 });
 
 app.get("/date", async (req, res) => {
